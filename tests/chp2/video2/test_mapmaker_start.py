@@ -37,4 +37,4 @@ def test_invalid_point_name_type():
     with pytest.raises(TypeError) as exp:
         notAName = 42
         Point(notAName, 55.34, 36.444)
-        assert str(exp.value) == "Invalid type. city name type has to be __str__"
+        assert str(exp.value) == "Invalid type. city name type has to be a string"
