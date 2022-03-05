@@ -11,6 +11,7 @@ def city_list_location():
 @pytest.fixture(scope="module")
 def process_data(city_list_location):
     files = os.listdir(city_list_location)
+
     def _specify_type(file_name_or_type):
         for file in files:
             if file_name_or_type in file:
@@ -18,9 +19,9 @@ def process_data(city_list_location):
                     data = data_processor.json_reader(city_list_location + file)
                 else:
                     data = data_processor.csv_reader(city_list_location + file)
+        return data
 
-    yield _specify_type#when called, we specify the filename or the type
-
+    yield _specify_type  # when called, we specify the filename or the type
 
 
 def test_csv_reader_header_fields(process_data):
@@ -61,11 +62,11 @@ def test_csv_reader_data_contents(process_data):
     assert data[0]['Country'] == 'Andorra'
     assert data[106]['Country'] == 'Japan'
 
-malformed_map.csv
+
 def test_csv_reader_malformed_data_contents(process_data):
     """
     Sad Path Test
     """
     with pytest.raises(ValueError) as exp:
-        data = process_data(file_name_or_type='malformed_map.csv')
+        process_data(file_name_or_type='malformed_map.csv')
     assert str(exp.value) == "could not convert string to float: 'not_an_altitude'"
