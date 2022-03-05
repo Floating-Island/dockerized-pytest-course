@@ -1,6 +1,7 @@
 from scripts.chp2.video2.mapmaker_start import Point
 import pytest
 
+
 def test_make_one_point():
     latitude = 50.4501
     longitude = 305234
@@ -9,5 +10,6 @@ def test_make_one_point():
 
 
 def test_invalid_point_generation():
-    with pytest.raises(Exception) as exp:
+    with pytest.raises(ValueError) as exp:
         Point("Graz", -955.34, 36.444)
+        assert str(exp.value) == 'Invalid latitude. Value must be greater or equal than -90'
