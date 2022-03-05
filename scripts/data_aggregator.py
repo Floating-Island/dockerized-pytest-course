@@ -32,7 +32,7 @@ def get_altitudes_per_country(data, country):
     return [x['Altitude'] for x in data if x['Country'] == country]
 
 
-def atitude_stat_per_country(data, country, stat):
+def altitude_stat_per_country(data, country, stat):
     country_altitude_list = []
     for row in data:
         if row['Country'] == country:

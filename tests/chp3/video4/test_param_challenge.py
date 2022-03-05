@@ -41,7 +41,7 @@ def test_csv_writer(process_data):
       the csv writer.
     """
     data = process_data(file_name_or_type="clean_map.csv")
-    andorran_median_res = data_aggregator.atitude_stat_per_country(data, 'Andorra', 'Median')
+    andorran_median_res = data_aggregator.altitude_stat_per_country(data, 'Andorra', 'Median')
     output_location = StringIO()
     data_aggregator.csv_writer(andorran_median_res, output_location)
 

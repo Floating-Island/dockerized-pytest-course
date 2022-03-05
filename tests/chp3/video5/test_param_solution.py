@@ -33,7 +33,7 @@ def process_data(city_list_location):
     ])
 def test_csv_writer(process_data, country, stat, expected):
     data = process_data(file_name_or_type="clean_map.csv")
-    result = data_aggregator.atitude_stat_per_country(data, country, stat)
+    result = data_aggregator.altitude_stat_per_country(data, country, stat)
     output_location = StringIO()
     data_aggregator.csv_writer(result, output_location)
 
