@@ -12,10 +12,10 @@ def test_make_one_point():
 def test_invalid_point_generation_negative_latitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", -955.34, 36.444)
-        assert str(exp.value) == 'Invalid latitude. Value must be greater or equal than -90'
+        assert str(exp.value) == 'Invalid latitude. -90 <= latitude <= 90'
 
 
 def test_invalid_point_generation_positive_latitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", 955.34, 36.444)
-        assert str(exp.value) == 'Invalid latitude. Value must be less or equal than 90'
+        assert str(exp.value) == 'Invalid latitude. -90 <= latitude <= 90'
