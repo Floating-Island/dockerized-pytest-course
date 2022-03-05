@@ -15,3 +15,14 @@ class Point():
     
     def latitudeAndLongitude(self):
         return (self._latitude, self._longitude)
+
+
+class Map():
+    def __init__(self):
+        self._cityPoints = set()
+    
+    def addPoint(self, aPoint):
+        self._cityPoints.add(aPoint)
+
+    def has(self, aPoint):
+        return aPoint in self._cityPoints
