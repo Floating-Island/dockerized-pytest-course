@@ -38,3 +38,12 @@ def test_invalid_point_name_type():
         notAName = 42
         Point(notAName, 55.34, 36.444)
         assert str(exp.value) == "Invalid type. city name type has to be a string"
+
+
+def test_make_one_map():
+    taipeiPoint = Point("Taipei", 25.105497, 121.597366)
+    alicantePoint = Point("Alicante", 38.3460, 0.4907)
+    aMap = Map()
+    aMap.addPoint(taipeiPoint)
+    aMap.addPoint(alicantePoint)
+    assert aMap.points().contains(taipeiPoint) && aMap.points().contains(alicantePoint)
