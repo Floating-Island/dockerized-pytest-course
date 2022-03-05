@@ -48,3 +48,10 @@ def test_make_one_map():
     aMap.addPoint(taipeiPoint)
     aMap.addPoint(alicantePoint)
     assert aMap.has(taipeiPoint) and aMap.has(alicantePoint)
+
+
+def test_invalid_point_not_stored_in_map():
+    taipeiPoint = Point("Taipei", 25.105497, 121.597366)
+    with pytest.raises(ValueError) as exp:
+        Map().has(taipeiPoint)
+        assert str(exp.value) == "Invalid point. Point isn't stored in map"
