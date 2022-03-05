@@ -3,3 +3,6 @@ class Point():
         self._cityName = cityName# _ indicates a private member variable
         self._latitude = latitude
         self._longitude = longitude
+    
+    def latitudeAndLongitude(self):
+        return (self._latitude, self._longitude)
