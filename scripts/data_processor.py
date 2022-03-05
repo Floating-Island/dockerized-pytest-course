@@ -17,7 +17,7 @@ def csv_reader(file_location):
 
 def json_reader(file_location):
     with open(file_location, mode='r') as json_file:
-        data = json.load(json_file.read())
+        data = json.loads(json_file.read())
         for row in data:
             try:
                 row['Lat'] = float(row['Lat'])
