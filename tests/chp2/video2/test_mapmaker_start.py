@@ -35,5 +35,6 @@ def test_invalid_point_generation_positive_longitude():
 
 def test_invalid_point_name_type():
     with pytest.raises(TypeError) as exp:
-        Point("Graz", 55.34, 36.444)
+        notAName = 42
+        Point(notAName, 55.34, 36.444)
         assert str(exp.value) == "Invalid type. city name type has to be __str__"
