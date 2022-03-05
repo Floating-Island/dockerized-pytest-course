@@ -15,7 +15,7 @@ def process_data(city_list_location):
     def _specify_type(file_name_or_type):
         for file in files:
             if file_name_or_type in file:
-                if (file_name_or_type == '.json'):
+                if '.json' in file_name_or_type:
                     data = data_processor.json_reader(city_list_location + file)
                 else:
                     data = data_processor.csv_reader(city_list_location + file)
