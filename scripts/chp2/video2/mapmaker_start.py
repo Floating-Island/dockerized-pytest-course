@@ -1,5 +1,10 @@
+import string
+
+
 class Point():
     def __init__(self, cityName, latitude, longitude):#__init__ denotes the class constructor
+        if not (isinstance(cityName, str)):
+            raise TypeError("Invalid type. city name type has to be __str__")
         self._cityName = cityName# _ indicates a private member variable
         if (latitude < -90) or (latitude > 90):
             raise ValueError("Invalid latitude. -90 <= latitude <= 90")
