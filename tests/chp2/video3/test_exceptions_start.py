@@ -10,3 +10,4 @@ def test_invalid_point_generation():  # TO DO
     # with pytest.raises(Exception) as exp:
     #     raise(Exception)
     pass
+#made in video2 instead

@@ -69,7 +69,7 @@ entry mode in the docker container.
 - Try to create a Map class that assembles the points you've created into a
 data structure. Create one test to make sure the map has the appropriate points
 and create another test to raise an exception if you assert the Map has a point
-that it has not stored.
+that it has not stored.**DONE**
 
 - Write a simple xml or json data processor to our data_processor.py file. After doing so, update the factory fixture to also allow a user to pass in the data for testing. There's a json_processor.py file in the scripts file if you get stuck and want to compare what you've done to a sample json reader.
 

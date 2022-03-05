@@ -8,3 +8,4 @@ class Point():
 
     def get_lat_long(self):
         return (self.latitude, self.longitude)
+#made in video2 instead
