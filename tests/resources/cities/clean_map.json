@@ -1,0 +1,1442 @@
+[
+  {
+    "Country": "Andorra",
+    "City": "Andorra la Vella",
+    "State_Or_Province": "Andorra la Vella",
+    "Lat": 42.5063,
+    "Long": 1.5218,
+    "Altitude": 1023
+  },
+  {
+    "Country": "Andorra",
+    "City": "Canillo",
+    "State_Or_Province": "Canillo",
+    "Lat": 42.5978,
+    "Long": 1.6566,
+    "Altitude": 1530
+  },
+  {
+    "Country": "Andorra",
+    "City": "El Tarter",
+    "State_Or_Province": "Canillo",
+    "Lat": 42.5801,
+    "Long": 1.6512,
+    "Altitude": 2640
+  },
+  {
+    "Country": "Andorra",
+    "City": "Els Plans",
+    "State_Or_Province": "Canillo",
+    "Lat": 42.5811,
+    "Long": 1.6332,
+    "Altitude": 1725
+  },
+  {
+    "Country": "Andorra",
+    "City": "Escaldes-Engordany",
+    "State_Or_Province": "Escaldes-Engordany",
+    "Lat": 42.5101,
+    "Long": 1.5388,
+    "Altitude": 1053
+  },
+  {
+    "Country": "Andorra",
+    "City": "Ordino",
+    "State_Or_Province": "Ordino",
+    "Lat": 42.5557,
+    "Long": 1.5331,
+    "Altitude": 1980.9
+  },
+  {
+    "Country": "Andorra",
+    "City": "Sornàs",
+    "State_Or_Province": "Ordino",
+    "Lat": 42.5649,
+    "Long": 1.5274,
+    "Altitude": 1538.021
+  },
+  {
+    "Country": "Angola",
+    "City": "Luanda",
+    "State_Or_Province": "Luanda",
+    "Lat": -8.838333,
+    "Long": 13.234444,
+    "Altitude": 6
+  },
+  {
+    "Country": "Argentina",
+    "City": "Buenos Aires",
+    "State_Or_Province": "Buenos Aires",
+    "Lat": -34.6037,
+    "Long": -58.3816,
+    "Altitude": 82
+  },
+  {
+    "Country": "Argentina",
+    "City": "Córdoba",
+    "State_Or_Province": "Córdoba",
+    "Lat": -31.4201,
+    "Long": -64.1888,
+    "Altitude": 450
+  },
+  {
+    "Country": "Argentina",
+    "City": "Mar del Plata",
+    "State_Or_Province": "Buenos Aires",
+    "Lat": -38.0055,
+    "Long": -57.5426,
+    "Altitude": 125
+  },
+  {
+    "Country": "Argentina",
+    "City": "Salta",
+    "State_Or_Province": "Salta",
+    "Lat": -24.7821,
+    "Long": -65.4232,
+    "Altitude": 1152
+  },
+  {
+    "Country": "Argentina",
+    "City": "Ushuaia",
+    "State_Or_Province": "Tierra del Fuego",
+    "Lat": -54.8019,
+    "Long": -68.303,
+    "Altitude": 57
+  },
+  {
+    "Country": "Belize",
+    "City": "Belize City",
+    "State_Or_Province": "Belize",
+    "Lat": 17.49952,
+    "Long": -88.19756,
+    "Altitude": 0
+  },
+  {
+    "Country": "Canada",
+    "City": "Burnaby",
+    "State_Or_Province": "British Columbia",
+    "Lat": 49.26636,
+    "Long": -122.95263,
+    "Altitude": 370
+  },
+  {
+    "Country": "Canada",
+    "City": "Calgary",
+    "State_Or_Province": "Alberta",
+    "Lat": 51.05011,
+    "Long": -114.08529,
+    "Altitude": 1048
+  },
+  {
+    "Country": "Canada",
+    "City": "Corner Brook",
+    "State_Or_Province": "Newfoundland and Labrador",
+    "Lat": 48.949,
+    "Long": -57.9503,
+    "Altitude": 304
+  },
+  {
+    "Country": "Canada",
+    "City": "Edmonton",
+    "State_Or_Province": "Alberta",
+    "Lat": 53.55014,
+    "Long": -113.46871,
+    "Altitude": 645
+  },
+  {
+    "Country": "Canada",
+    "City": "Fredericton",
+    "State_Or_Province": "New Brunswick",
+    "Lat": 45.9636,
+    "Long": -66.6431,
+    "Altitude": 17
+  },
+  {
+    "Country": "Canada",
+    "City": "Iqaluit",
+    "State_Or_Province": "Nunavut",
+    "Lat": 63.7467,
+    "Long": -68.517,
+    "Altitude": 386.18
+  },
+  {
+    "Country": "Canada",
+    "City": "Mississauga",
+    "State_Or_Province": "Ontario",
+    "Lat": 43.5789,
+    "Long": -79.6583,
+    "Altitude": 156
+  },
+  {
+    "Country": "Canada",
+    "City": "Moncton",
+    "State_Or_Province": "New Brunswick",
+    "Lat": 46.0878,
+    "Long": -64.7782,
+    "Altitude": 71
+  },
+  {
+    "Country": "Canada",
+    "City": "Montreal",
+    "State_Or_Province": "Québec",
+    "Lat": 45.50884,
+    "Long": -73.58781,
+    "Altitude": 124
+  },
+  {
+    "Country": "Canada",
+    "City": "Mount Pearl",
+    "State_Or_Province": "Newfoundland and Labrador",
+    "Lat": 47.5206,
+    "Long": -52.8077,
+    "Altitude": 100.58
+  },
+  {
+    "Country": "Canada",
+    "City": "Ottawa",
+    "State_Or_Province": "Ontario",
+    "Lat": 45.41117,
+    "Long": -75.69812,
+    "Altitude": 166
+  },
+  {
+    "Country": "Canada",
+    "City": "Québec",
+    "State_Or_Province": "Québec",
+    "Lat": 46.8139,
+    "Long": -71.208,
+    "Altitude": 98
+  },
+  {
+    "Country": "Canada",
+    "City": "Saint John",
+    "State_Or_Province": "New Brunswick",
+    "Lat": 45.2733,
+    "Long": -66.0633,
+    "Altitude": 80.8
+  },
+  {
+    "Country": "Canada",
+    "City": "Saskatoon",
+    "State_Or_Province": "Saskatchewan",
+    "Lat": 52.11679,
+    "Long": -106.63452,
+    "Altitude": 481.5
+  },
+  {
+    "Country": "Canada",
+    "City": "St. John's",
+    "State_Or_Province": "Newfoundland and Labrador",
+    "Lat": 47.5615,
+    "Long": -52.7126,
+    "Altitude": 35
+  },
+  {
+    "Country": "Canada",
+    "City": "Surrey",
+    "State_Or_Province": "British Columbia",
+    "Lat": 49.10635,
+    "Long": -122.82509,
+    "Altitude": 134
+  },
+  {
+    "Country": "Canada",
+    "City": "Toronto",
+    "State_Or_Province": "Ontario",
+    "Lat": 43.70011,
+    "Long": -79.4163,
+    "Altitude": 76.5
+  },
+  {
+    "Country": "Canada",
+    "City": "Vancouver",
+    "State_Or_Province": "British Columbia",
+    "Lat": 49.24966,
+    "Long": -123.11934,
+    "Altitude": 152
+  },
+  {
+    "Country": "Canada",
+    "City": "Winnipeg",
+    "State_Or_Province": "Manitoba",
+    "Lat": 49.8844,
+    "Long": -97.14704,
+    "Altitude": 240
+  },
+  {
+    "Country": "Canada",
+    "City": "Yellowknife",
+    "State_Or_Province": "Northwest Territories",
+    "Lat": 62.456,
+    "Long": -114.35255,
+    "Altitude": 246
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Assomada",
+    "State_Or_Province": "Santa Catarina",
+    "Lat": 15.0988,
+    "Long": -23.6711,
+    "Altitude": 550
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Espargos",
+    "State_Or_Province": "Sal",
+    "Lat": 16.756,
+    "Long": -22.9386,
+    "Altitude": 109
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Mindelo",
+    "State_Or_Province": "São Vicente",
+    "Lat": 16.8765,
+    "Long": -24.9813,
+    "Altitude": 44
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Pedra Badejo",
+    "State_Or_Province": "Santa Cruz",
+    "Lat": 15.1357,
+    "Long": -23.5342,
+    "Altitude": 35
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Porto Novo",
+    "State_Or_Province": "Porto Novo",
+    "Lat": 17.0215,
+    "Long": -25.0674,
+    "Altitude": 1979
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Praia",
+    "State_Or_Province": "Praia",
+    "Lat": 14.9315,
+    "Long": -23.5125,
+    "Altitude": 2829
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "São Filipe",
+    "State_Or_Province": "São Filipe",
+    "Lat": 14.8961,
+    "Long": -24.49556,
+    "Altitude": 20
+  },
+  {
+    "Country": "Cape Verde",
+    "City": "Tarrafal",
+    "State_Or_Province": "Tarrafal",
+    "Lat": 15.2761,
+    "Long": -23.7484,
+    "Altitude": 434.04
+  },
+  {
+    "Country": "Cote d'Ivore",
+    "City": "Abidjan",
+    "State_Or_Province": "Abidjan",
+    "Lat": 5.30966,
+    "Long": -4.01266,
+    "Altitude": 1752
+  },
+  {
+    "Country": "Democratic Republic of the Congo",
+    "City": "Kinshasa",
+    "State_Or_Province": "Kinshasa",
+    "Lat": -4.322447,
+    "Long": 15.307045,
+    "Altitude": 240
+  },
+  {
+    "Country": "Denmark",
+    "City": "Aalborg",
+    "State_Or_Province": "Aalborg",
+    "Lat": 57.0488,
+    "Long": 9.9217,
+    "Altitude": 5
+  },
+  {
+    "Country": "Denmark",
+    "City": "Aarhus",
+    "State_Or_Province": "Aarhus",
+    "Lat": 56.1629,
+    "Long": 10.2039,
+    "Altitude": 128
+  },
+  {
+    "Country": "Denmark",
+    "City": "Copenhagen",
+    "State_Or_Province": "Frederiksberg",
+    "Lat": 55.676098,
+    "Long": 12.568337,
+    "Altitude": 9
+  },
+  {
+    "Country": "Denmark",
+    "City": "Esbjerg",
+    "State_Or_Province": "Esbjerg",
+    "Lat": 55.4765,
+    "Long": 8.4594,
+    "Altitude": 25
+  },
+  {
+    "Country": "Denmark",
+    "City": "Herning",
+    "State_Or_Province": "Herning",
+    "Lat": 56.1386,
+    "Long": 8.9673,
+    "Altitude": 58
+  },
+  {
+    "Country": "Denmark",
+    "City": "Odense",
+    "State_Or_Province": "Funen",
+    "Lat": 55.3959389,
+    "Long": 10.3883104,
+    "Altitude": 15
+  },
+  {
+    "Country": "Denmark",
+    "City": "Randers",
+    "State_Or_Province": "Randers",
+    "Lat": 56.4606,
+    "Long": 10.0365,
+    "Altitude": 56
+  },
+  {
+    "Country": "Dominica",
+    "City": "Roseau",
+    "State_Or_Province": "Saint George",
+    "Lat": 15.3017397,
+    "Long": -61.3880806,
+    "Altitude": 43
+  },
+  {
+    "Country": "Egypt",
+    "City": "Alexandria",
+    "State_Or_Province": "Alexandria",
+    "Lat": 31.21564,
+    "Long": 29.95527,
+    "Altitude": 12
+  },
+  {
+    "Country": "Egypt",
+    "City": "Cairo",
+    "State_Or_Province": "Cairo",
+    "Lat": 30.06263,
+    "Long": 31.24967,
+    "Altitude": 23
+  },
+  {
+    "Country": "Egypt",
+    "City": "El Mahalla El Kubra",
+    "State_Or_Province": "Gharbia",
+    "Lat": 30.9697,
+    "Long": 31.1681,
+    "Altitude": 26
+  },
+  {
+    "Country": "Egypt",
+    "City": "Giza",
+    "State_Or_Province": "Giza",
+    "Lat": 30.0131,
+    "Long": 31.2089,
+    "Altitude": 19
+  },
+  {
+    "Country": "Egypt",
+    "City": "Luxor",
+    "State_Or_Province": "Luxor",
+    "Lat": 25.6872,
+    "Long": 32.6396,
+    "Altitude": 76
+  },
+  {
+    "Country": "Egypt",
+    "City": "Mansoura",
+    "State_Or_Province": "Dakahlia",
+    "Lat": 31.0409,
+    "Long": 31.3785,
+    "Altitude": 12
+  },
+  {
+    "Country": "Egypt",
+    "City": "Port Said",
+    "State_Or_Province": "Port Said",
+    "Lat": 31.2653,
+    "Long": 32.3019,
+    "Altitude": 3
+  },
+  {
+    "Country": "Egypt",
+    "City": "Shubra El Kheima",
+    "State_Or_Province": "Qalyubia",
+    "Lat": 30.1234,
+    "Long": 31.2609,
+    "Altitude": 16
+  },
+  {
+    "Country": "Egypt",
+    "City": "Suez",
+    "State_Or_Province": "Suez",
+    "Lat": 29.9668,
+    "Long": 32.5498,
+    "Altitude": 5
+  },
+  {
+    "Country": "Egypt",
+    "City": "Tanta",
+    "State_Or_Province": "Gharbia",
+    "Lat": 30.7865,
+    "Long": 31.0004,
+    "Altitude": 12
+  },
+  {
+    "Country": "Ethiopia",
+    "City": "Addis Ababa",
+    "State_Or_Province": "Oromia",
+    "Lat": 9.005401,
+    "Long": 38.763611,
+    "Altitude": 2355
+  },
+  {
+    "Country": "Germany",
+    "City": "Bayreuth",
+    "State_Or_Province": "Bavaria",
+    "Lat": 49.9456,
+    "Long": 11.5713,
+    "Altitude": 340
+  },
+  {
+    "Country": "Germany",
+    "City": "Berlin",
+    "State_Or_Province": "Brandenburg",
+    "Lat": 52.52,
+    "Long": 13.405,
+    "Altitude": 70
+  },
+  {
+    "Country": "Germany",
+    "City": "Bremen",
+    "State_Or_Province": "Bremen",
+    "Lat": 53.0793,
+    "Long": 8.8017,
+    "Altitude": 12
+  },
+  {
+    "Country": "Germany",
+    "City": "Hamburg",
+    "State_Or_Province": "Lower Saxony",
+    "Lat": 53.57532,
+    "Long": 10.01534,
+    "Altitude": 116.2
+  },
+  {
+    "Country": "Germany",
+    "City": "Hannover",
+    "State_Or_Province": "Lower Saxony",
+    "Lat": 52.3759,
+    "Long": 9.732,
+    "Altitude": 180
+  },
+  {
+    "Country": "Germany",
+    "City": "Mainz",
+    "State_Or_Province": "Rhineland-Palatinate",
+    "Lat": 49.9929,
+    "Long": 8.2473,
+    "Altitude": 85
+  },
+  {
+    "Country": "Germany",
+    "City": "Munich",
+    "State_Or_Province": "Bavaria",
+    "Lat": 48.2,
+    "Long": 11.48,
+    "Altitude": 447
+  },
+  {
+    "Country": "Germany",
+    "City": "Nuernberg",
+    "State_Or_Province": "Bavaria",
+    "Lat": 49.4521,
+    "Long": 11.0767,
+    "Altitude": 302
+  },
+  {
+    "Country": "Germany",
+    "City": "Potsdam",
+    "State_Or_Province": "Brandenburg",
+    "Lat": 52.3906,
+    "Long": 13.0645,
+    "Altitude": 32
+  },
+  {
+    "Country": "Germany",
+    "City": "Rostock",
+    "State_Or_Province": "Mecklenburg-Vorpommern",
+    "Lat": 54.0924,
+    "Long": 12.0991,
+    "Altitude": 13
+  },
+  {
+    "Country": "Greece",
+    "City": "Athens",
+    "State_Or_Province": "Attica",
+    "Lat": 37.9838,
+    "Long": 23.7275,
+    "Altitude": 338
+  },
+  {
+    "Country": "Greece",
+    "City": "Cape Sounio",
+    "State_Or_Province": "Sounio",
+    "Lat": 37.6504,
+    "Long": 24.0271,
+    "Altitude": 60
+  },
+  {
+    "Country": "Greece",
+    "City": "Delphi",
+    "State_Or_Province": "Delphi",
+    "Lat": 38.4801,
+    "Long": 22.4941,
+    "Altitude": 632
+  },
+  {
+    "Country": "Greece",
+    "City": "Hydra",
+    "State_Or_Province": "Attica",
+    "Lat": 37.3288,
+    "Long": 23.4717,
+    "Altitude": 600
+  },
+  {
+    "Country": "Greece",
+    "City": "Kalamata",
+    "State_Or_Province": "Peloponnese",
+    "Lat": 37.0366,
+    "Long": 22.1144,
+    "Altitude": 8
+  },
+  {
+    "Country": "Greece",
+    "City": "Knossos",
+    "State_Or_Province": "Heraklion",
+    "Lat": 35.2985,
+    "Long": 25.1596,
+    "Altitude": 85
+  },
+  {
+    "Country": "Greece",
+    "City": "Patras",
+    "State_Or_Province": "Achaea",
+    "Lat": 38.2466,
+    "Long": 21.7346,
+    "Altitude": 3
+  },
+  {
+    "Country": "Greece",
+    "City": "Rhodes",
+    "State_Or_Province": "South Aegean",
+    "Lat": 36.435,
+    "Long": 28.2175,
+    "Altitude": 1216
+  },
+  {
+    "Country": "Greece",
+    "City": "Spetses",
+    "State_Or_Province": "Attica",
+    "Lat": 37.2626,
+    "Long": 23.1322,
+    "Altitude": 300
+  },
+  {
+    "Country": "Greece",
+    "City": "Thessaloniki",
+    "State_Or_Province": "Central Macedonia",
+    "Lat": 40.6401,
+    "Long": 22.9444,
+    "Altitude": 250
+  },
+  {
+    "Country": "India",
+    "City": "Ahmedabad",
+    "State_Or_Province": "Gujarat",
+    "Lat": 23.0225,
+    "Long": 72.5714,
+    "Altitude": 174
+  },
+  {
+    "Country": "India",
+    "City": "Bangalore",
+    "State_Or_Province": "Karnataka",
+    "Lat": 12.9716,
+    "Long": 77.5946,
+    "Altitude": 900
+  },
+  {
+    "Country": "India",
+    "City": "Chennai",
+    "State_Or_Province": "Tamil Nadu",
+    "Lat": 13.0827,
+    "Long": 80.2707,
+    "Altitude": 6.7
+  },
+  {
+    "Country": "India",
+    "City": "Delhi",
+    "State_Or_Province": "Delhi",
+    "Lat": 28.7041,
+    "Long": 77.1025,
+    "Altitude": 216
+  },
+  {
+    "Country": "India",
+    "City": "Hyderabad",
+    "State_Or_Province": "Telangana",
+    "Lat": 17.385,
+    "Long": 78.4867,
+    "Altitude": 542
+  },
+  {
+    "Country": "India",
+    "City": "Jaipur",
+    "State_Or_Province": "Rajasthan",
+    "Lat": 26.9124,
+    "Long": 75.7873,
+    "Altitude": 431
+  },
+  {
+    "Country": "India",
+    "City": "Kolkata",
+    "State_Or_Province": "West Bengal",
+    "Lat": 22.5726,
+    "Long": 88.3639,
+    "Altitude": 9.14
+  },
+  {
+    "Country": "India",
+    "City": "Mumbai",
+    "State_Or_Province": "Maharashtra",
+    "Lat": 19.076,
+    "Long": 72.8777,
+    "Altitude": 14
+  },
+  {
+    "Country": "India",
+    "City": "Pune",
+    "State_Or_Province": "Maharashtra",
+    "Lat": 18.5204,
+    "Long": 73.8567,
+    "Altitude": 560
+  },
+  {
+    "Country": "India",
+    "City": "Surat",
+    "State_Or_Province": "Gujarat",
+    "Lat": 21.1702,
+    "Long": 72.8311,
+    "Altitude": 13
+  },
+  {
+    "Country": "Jakarta",
+    "City": "Jakarta",
+    "State_Or_Province": "Indonesia",
+    "Lat": -6.2088,
+    "Long": 106.8456,
+    "Altitude": 8
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Kingston",
+    "State_Or_Province": "Kingston",
+    "Lat": 18.0179,
+    "Long": 76.8099,
+    "Altitude": 9
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Linstead",
+    "State_Or_Province": "Saint Catherine",
+    "Lat": 18.1403,
+    "Long": 77.0449,
+    "Altitude": 121
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Mandeville",
+    "State_Or_Province": "Manchester",
+    "Lat": 18.0313,
+    "Long": 77.5046,
+    "Altitude": 628
+  },
+  {
+    "Country": "Jamaica",
+    "City": "May Pen",
+    "State_Or_Province": "Clarendon",
+    "Lat": 17.9646,
+    "Long": 77.2434,
+    "Altitude": 2256
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Montego Bay",
+    "State_Or_Province": "Saint James",
+    "Lat": 18.4762,
+    "Long": 77.8939,
+    "Altitude": 12
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Ocho Rios",
+    "State_Or_Province": "Saint Ann",
+    "Lat": 18.4074,
+    "Long": 77.1031,
+    "Altitude": 2256
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Old Harbour",
+    "State_Or_Province": "Saint Catherine",
+    "Lat": 17.9411,
+    "Long": 77.1082,
+    "Altitude": 1
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Port Antonio",
+    "State_Or_Province": "Portland",
+    "Lat": 18.1713,
+    "Long": 76.4476,
+    "Altitude": 14
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Portmore",
+    "State_Or_Province": "Saint Catherine",
+    "Lat": 17.9611,
+    "Long": 76.8894,
+    "Altitude": 16
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Savanna-la-Mar",
+    "State_Or_Province": "Westmoreland",
+    "Lat": 18.2292,
+    "Long": 78.1393,
+    "Altitude": 5
+  },
+  {
+    "Country": "Jamaica",
+    "City": "Spanish Town",
+    "State_Or_Province": "Saint Catherine",
+    "Lat": 18.0167,
+    "Long": 76.9748,
+    "Altitude": 31
+  },
+  {
+    "Country": "Japan",
+    "City": "Fukuoka",
+    "State_Or_Province": "Fukuoka",
+    "Lat": 33.5902,
+    "Long": 130.4017,
+    "Altitude": 597
+  },
+  {
+    "Country": "Japan",
+    "City": "Kawasaki",
+    "State_Or_Province": "Kanagawa",
+    "Lat": 35.5308,
+    "Long": 139.7029,
+    "Altitude": 1
+  },
+  {
+    "Country": "Japan",
+    "City": "Kobe",
+    "State_Or_Province": "Hyōgo",
+    "Lat": 34.6901,
+    "Long": 135.1956,
+    "Altitude": 35
+  },
+  {
+    "Country": "Japan",
+    "City": "Kyoto",
+    "State_Or_Province": "Kyoto",
+    "Lat": 35.0116,
+    "Long": 135.7681,
+    "Altitude": 1000
+  },
+  {
+    "Country": "Japan",
+    "City": "Nagoya",
+    "State_Or_Province": "Aichi",
+    "Lat": 35.1815,
+    "Long": 136.9066,
+    "Altitude": 56
+  },
+  {
+    "Country": "Japan",
+    "City": "Osaka",
+    "State_Or_Province": "Osaka",
+    "Lat": 34.6937,
+    "Long": 135.5023,
+    "Altitude": 83
+  },
+  {
+    "Country": "Japan",
+    "City": "Saitama",
+    "State_Or_Province": "Saitama",
+    "Lat": 35.8616,
+    "Long": 139.6455,
+    "Altitude": 13.11
+  },
+  {
+    "Country": "Japan",
+    "City": "Sapporo",
+    "State_Or_Province": "Hokkaidō",
+    "Lat": 43.0618,
+    "Long": 141.3545,
+    "Altitude": 29
+  },
+  {
+    "Country": "Japan",
+    "City": "Shizuoka",
+    "State_Or_Province": "Shizuoka Prefecture",
+    "Lat": 34.9756,
+    "Long": 138.3827,
+    "Altitude": 3193
+  },
+  {
+    "Country": "Japan",
+    "City": "Tokyo",
+    "State_Or_Province": "Tokyo",
+    "Lat": 35.6762,
+    "Long": 139.6503,
+    "Altitude": 40
+  },
+  {
+    "Country": "Japan",
+    "City": "Yokohama",
+    "State_Or_Province": "Kanagawa",
+    "Lat": 35.4437,
+    "Long": 139.638,
+    "Altitude": 43
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Butha-Buthe",
+    "State_Or_Province": "Butha-Buthe",
+    "Lat": -28.7654,
+    "Long": 28.2468,
+    "Altitude": 1800
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Hlotse",
+    "State_Or_Province": "Leribe",
+    "Lat": -28.8638,
+    "Long": 28.0479,
+    "Altitude": 1532.84
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Mafeteng",
+    "State_Or_Province": "Mafeteng",
+    "Lat": -29.82299,
+    "Long": 27.23744,
+    "Altitude": 1500
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Maputsoe",
+    "State_Or_Province": "Leribe",
+    "Lat": -28.8954,
+    "Long": 27.9073,
+    "Altitude": 1620.93
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Maseru",
+    "State_Or_Province": "Maseru",
+    "Lat": -29.3151,
+    "Long": 27.4869,
+    "Altitude": 1400
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Mohale's Hoek",
+    "State_Or_Province": "Mohale's Hoek",
+    "Lat": -30.1426,
+    "Long": 27.4674,
+    "Altitude": 1800
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Mokhotlong",
+    "State_Or_Province": "Mokhotlong",
+    "Lat": -29.2876,
+    "Long": 29.0605,
+    "Altitude": 2512
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Qacha's Nek",
+    "State_Or_Province": "Qacha's Nek",
+    "Lat": -30.1115,
+    "Long": 28.679,
+    "Altitude": 1981
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Quthing",
+    "State_Or_Province": "Quthing",
+    "Lat": -30.3246,
+    "Long": 28.0186,
+    "Altitude": 1500
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Teyateyaneng",
+    "State_Or_Province": "Berea",
+    "Lat": -29.1396,
+    "Long": 27.7491,
+    "Altitude": 1600
+  },
+  {
+    "Country": "Lesotho",
+    "City": "Thaba-Tseka",
+    "State_Or_Province": "Thaba-Tseka",
+    "Lat": -29.5239,
+    "Long": 28.609,
+    "Altitude": 2200
+  },
+  {
+    "Country": "Morocco",
+    "City": "Casablanca",
+    "State_Or_Province": "Casablanca-Settat",
+    "Lat": 33.5731,
+    "Long": 7.5898,
+    "Altitude": 57
+  },
+  {
+    "Country": "Morocco",
+    "City": "Fez",
+    "State_Or_Province": "Fès-Meknès",
+    "Lat": 34.0181,
+    "Long": 5.0078,
+    "Altitude": 410
+  },
+  {
+    "Country": "Morocco",
+    "City": "Kenitra",
+    "State_Or_Province": "Rabat-Salé-Kénitra",
+    "Lat": 34.2541,
+    "Long": 6.589,
+    "Altitude": 26
+  },
+  {
+    "Country": "Morocco",
+    "City": "Marrakesh",
+    "State_Or_Province": "Marrakesh-Safi",
+    "Lat": 31.6295,
+    "Long": -7.9811,
+    "Altitude": 466
+  },
+  {
+    "Country": "Morocco",
+    "City": "Meknes",
+    "State_Or_Province": "Fès-Meknès",
+    "Lat": 33.873,
+    "Long": 5.5407,
+    "Altitude": 546
+  },
+  {
+    "Country": "Morocco",
+    "City": "Oujda",
+    "State_Or_Province": "Oriental",
+    "Lat": 34.682,
+    "Long": 1.9002,
+    "Altitude": 450
+  },
+  {
+    "Country": "Morocco",
+    "City": "Rabat",
+    "State_Or_Province": "Rabat-Salé-Kénitra",
+    "Lat": 33.9716,
+    "Long": 6.8498,
+    "Altitude": 79
+  },
+  {
+    "Country": "Morocco",
+    "City": "Salé",
+    "State_Or_Province": "Rabat-Salé-Kénitra",
+    "Lat": 34.0337,
+    "Long": 6.7708,
+    "Altitude": 115
+  },
+  {
+    "Country": "Morocco",
+    "City": "Tanger",
+    "State_Or_Province": "Tanger-Tetouan-Al Hoceima",
+    "Lat": 35.7595,
+    "Long": 5.834,
+    "Altitude": 230
+  },
+  {
+    "Country": "Nairobi",
+    "City": "Kenya",
+    "State_Or_Province": "Nairobi",
+    "Lat": -1.28333,
+    "Long": 36.81667,
+    "Altitude": 1795
+  },
+  {
+    "Country": "Nepal",
+    "City": "Bharatpur",
+    "State_Or_Province": "Chitwan",
+    "Lat": 27.2152,
+    "Long": 77.503,
+    "Altitude": 208
+  },
+  {
+    "Country": "Nepal",
+    "City": "Biratnagar",
+    "State_Or_Province": "Morang",
+    "Lat": 26.4525,
+    "Long": 87.2718,
+    "Altitude": 80
+  },
+  {
+    "Country": "Nepal",
+    "City": "Birganj",
+    "State_Or_Province": "Parsa",
+    "Lat": 27.0449,
+    "Long": 84.8672,
+    "Altitude": 92
+  },
+  {
+    "Country": "Nepal",
+    "City": "Kathmandu",
+    "State_Or_Province": "Kathmandu",
+    "Lat": 27.7172,
+    "Long": 85.324,
+    "Altitude": 1400
+  },
+  {
+    "Country": "Nepal",
+    "City": "Lalitpur",
+    "State_Or_Province": "Lalitpur",
+    "Lat": 27.6588,
+    "Long": 85.3247,
+    "Altitude": 2300
+  },
+  {
+    "Country": "Nepal",
+    "City": "Pokhara",
+    "State_Or_Province": "Kaski",
+    "Lat": 28.2096,
+    "Long": 83.9856,
+    "Altitude": 1740
+  },
+  {
+    "Country": "Peru",
+    "City": "Arequipa",
+    "State_Or_Province": "Arequipa",
+    "Lat": -16.409,
+    "Long": -71.5375,
+    "Altitude": 2328
+  },
+  {
+    "Country": "Peru",
+    "City": "Lima",
+    "State_Or_Province": "Lima",
+    "Lat": 12.04318,
+    "Long": -77.02824,
+    "Altitude": 154
+  },
+  {
+    "Country": "Senegal",
+    "City": "Dakar",
+    "State_Or_Province": "Dakar",
+    "Lat": 14.7167,
+    "Long": 17.4677,
+    "Altitude": 72
+  },
+  {
+    "Country": "Senegal",
+    "City": "Diourbel",
+    "State_Or_Province": "Diourbel",
+    "Lat": 14.6561,
+    "Long": -16.2346,
+    "Altitude": 14
+  },
+  {
+    "Country": "Senegal",
+    "City": "Kaolack",
+    "State_Or_Province": "Kaolack",
+    "Lat": 14.1652,
+    "Long": -16.0758,
+    "Altitude": 6
+  },
+  {
+    "Country": "Senegal",
+    "City": "Louga",
+    "State_Or_Province": "Louga",
+    "Lat": 15.6142,
+    "Long": -16.2287,
+    "Altitude": 45
+  },
+  {
+    "Country": "Senegal",
+    "City": "M'Bour",
+    "State_Or_Province": "Thiès",
+    "Lat": 14.4228,
+    "Long": -16.9654,
+    "Altitude": 14
+  },
+  {
+    "Country": "Senegal",
+    "City": "Rufisque",
+    "State_Or_Province": "Dakar",
+    "Lat": 14.7155,
+    "Long": -17.2709,
+    "Altitude": 14
+  },
+  {
+    "Country": "Senegal",
+    "City": "Saint-Louis",
+    "State_Or_Province": "Saint-Louis",
+    "Lat": 16.0326,
+    "Long": -16.4818,
+    "Altitude": 3
+  },
+  {
+    "Country": "Senegal",
+    "City": "Thiès",
+    "State_Or_Province": "Thiès",
+    "Lat": 14.791,
+    "Long": -16.9359,
+    "Altitude": 25
+  },
+  {
+    "Country": "Senegal",
+    "City": "Touba",
+    "State_Or_Province": "Diourbel",
+    "Lat": 14.8666,
+    "Long": -15.8995,
+    "Altitude": 35
+  },
+  {
+    "Country": "Senegal",
+    "City": "Ziguinchor",
+    "State_Or_Province": "Ziguinchor",
+    "Lat": 12.5641,
+    "Long": -16.264,
+    "Altitude": 12
+  },
+  {
+    "Country": "Singapore",
+    "City": "Singapore",
+    "State_Or_Province": "Singapore",
+    "Lat": 1.29027,
+    "Long": 103.851959,
+    "Altitude": 165
+  },
+  {
+    "Country": "South Africa",
+    "City": "Johannesburg",
+    "State_Or_Province": "Gauteng",
+    "Lat": -26.205681,
+    "Long": 28.046822,
+    "Altitude": 1753
+  },
+  {
+    "Country": "Tanzania",
+    "City": "Dar es Salaam",
+    "State_Or_Province": "DSM",
+    "Lat": -6.821,
+    "Long": 39.276505,
+    "Altitude": 24
+  },
+  {
+    "Country": "Thailand",
+    "City": "Bangkok",
+    "State_Or_Province": "Bangkok",
+    "Lat": 13.75398,
+    "Long": 100.50144,
+    "Altitude": 1.5
+  },
+  {
+    "Country": "Thailand",
+    "City": "Chaophraya Surasak",
+    "State_Or_Province": "Chonburi",
+    "Lat": 13.0728,
+    "Long": 100.5957,
+    "Altitude": 25
+  },
+  {
+    "Country": "Thailand",
+    "City": "Chiang Mai",
+    "State_Or_Province": "Chiang Mai",
+    "Lat": 18.79038,
+    "Long": 98.98468,
+    "Altitude": 300
+  },
+  {
+    "Country": "Thailand",
+    "City": "Hat Yai",
+    "State_Or_Province": "Songkhla",
+    "Lat": 7.00836,
+    "Long": 100.47668,
+    "Altitude": 27
+  },
+  {
+    "Country": "Thailand",
+    "City": "Khon Kaen",
+    "State_Or_Province": "Khon Kaen",
+    "Lat": 16.4322,
+    "Long": 102.8236,
+    "Altitude": 187
+  },
+  {
+    "Country": "Thailand",
+    "City": "Nakhon Ratchasima",
+    "State_Or_Province": "Nakhon Ratchasima",
+    "Lat": 14.9738,
+    "Long": 102.0837,
+    "Altitude": 200
+  },
+  {
+    "Country": "Thailand",
+    "City": "Nonthaburi",
+    "State_Or_Province": "Nonthaburi",
+    "Lat": 7.878978,
+    "Long": 98.398392,
+    "Altitude": 1
+  },
+  {
+    "Country": "Thailand",
+    "City": "Pak Kret",
+    "State_Or_Province": "Nonthaburi",
+    "Lat": 13.8995,
+    "Long": 100.5426,
+    "Altitude": 8
+  },
+  {
+    "Country": "Thailand",
+    "City": "Pattaya",
+    "State_Or_Province": "Pattaya",
+    "Lat": 12.9236,
+    "Long": 100.8825,
+    "Altitude": 2
+  },
+  {
+    "Country": "Thailand",
+    "City": "Phra Nakhon Si Ayutthaya",
+    "State_Or_Province": "Phra Nakhon Si Ayutthaya",
+    "Lat": 14.35167,
+    "Long": 100.57739,
+    "Altitude": 34
+  },
+  {
+    "Country": "Thailand",
+    "City": "Phuket",
+    "State_Or_Province": "Phuket",
+    "Lat": 7.89059,
+    "Long": 98.3981,
+    "Altitude": 529
+  },
+  {
+    "Country": "Thailand",
+    "City": "Rangsit",
+    "State_Or_Province": "Pathum Thani",
+    "Lat": 13.9913,
+    "Long": 100.6474,
+    "Altitude": 9
+  },
+  {
+    "Country": "Thailand",
+    "City": "Ubon Ratchathani",
+    "State_Or_Province": "Ubon Ratchathani",
+    "Lat": 15.2448,
+    "Long": 104.8473,
+    "Altitude": 125
+  },
+  {
+    "Country": "United States",
+    "City": "Stockton",
+    "State_Or_Province": "CA",
+    "Lat": 37.9577,
+    "Long": -121.2907,
+    "Altitude": 4
+  },
+  {
+    "Country": "United States",
+    "City": "Tampa",
+    "State_Or_Province": "FL",
+    "Lat": 27.9475,
+    "Long": -82.4584,
+    "Altitude": 1
+  },
+  {
+    "Country": "United States",
+    "City": "Toledo",
+    "State_Or_Province": "OH",
+    "Lat": 41.6639,
+    "Long": -83.5552,
+    "Altitude": 191
+  },
+  {
+    "Country": "United States",
+    "City": "Tucson",
+    "State_Or_Province": "AZ",
+    "Lat": 32.2217,
+    "Long": -110.9264,
+    "Altitude": 751
+  },
+  {
+    "Country": "United States",
+    "City": "Tulsa",
+    "State_Or_Province": "OK",
+    "Lat": 36.1539,
+    "Long": -95.9927,
+    "Altitude": 213
+  },
+  {
+    "Country": "United States",
+    "City": "Virginia Beach",
+    "State_Or_Province": "VA",
+    "Lat": 36.8529,
+    "Long": -75.97798,
+    "Altitude": 3
+  },
+  {
+    "Country": "United States",
+    "City": "Washington",
+    "State_Or_Province": "DC",
+    "Lat": 38.895,
+    "Long": -77.03637,
+    "Altitude": 11
+  },
+  {
+    "Country": "United States",
+    "City": "West Raleigh",
+    "State_Or_Province": "NC",
+    "Lat": 35.78682,
+    "Long": -78.6639,
+    "Altitude": 122
+  },
+  {
+    "Country": "United States",
+    "City": "Wichita",
+    "State_Or_Province": "KS",
+    "Lat": 37.69224,
+    "Long": -97.3375,
+    "Altitude": 402
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Country": "Cape Verde",
+    "City": "Espargos",
+    "State_Or_Province": "Sal",
+    "Lat": 16.756,
+    "Long": -22.9386,
+    "Altitude": "not_an_altitude"
+  },
+  {
+    "Country": "India",
+    "City": "Bangalore",
+    "State_Or_Province": "Karnataka",
+    "Lat": "cant_cast_me",
+    "Long": 77.5946,
+    "Altitude": 900
+  },
+  {
+    "Country": "Japan",
+    "City": "Kyoto",
+    "State_Or_Province": "Kyoto",
+    "Lat": 35.0116,
+    "Long": "a_string",
+    "Altitude": 1000
+  },
+  {
+    "Country": "Morocco",
+    "City": "Casablanca",
+    "State_Or_Province": "Casablanca-Settat",
+    "Lat": "not_a_latitude",
+    "Long": 7.5898,
+    "Altitude": 57
+  },
+  {
+    "Country": "Senegal",
+    "City": "Kaolack",
+    "State_Or_Province": "Kaolack",
+    "Lat": 14.1652,
+    "Long": "not_a_longitude",
+    "Altitude": 6
+  }
+]
