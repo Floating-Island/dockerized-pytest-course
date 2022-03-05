@@ -46,4 +46,4 @@ def test_make_one_map():
     aMap = Map()
     aMap.addPoint(taipeiPoint)
     aMap.addPoint(alicantePoint)
-    assert aMap.points().contains(taipeiPoint) && aMap.points().contains(alicantePoint)
+    assert aMap.has(taipeiPoint) && aMap.has(alicantePoint)
