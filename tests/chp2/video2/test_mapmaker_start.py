@@ -24,4 +24,4 @@ def test_invalid_point_generation_positive_latitude():
 def test_invalid_point_generation_negative_longitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", 55.34, -336.444)
-        assert str(exp.value) == "Invalid longitude. -180 <= latitude <= 180"
+        assert str(exp.value) == "Invalid longitude. -180 <= longitude"
