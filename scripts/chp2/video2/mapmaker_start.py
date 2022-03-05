@@ -3,6 +3,8 @@ class Point():
         self._cityName = cityName# _ indicates a private member variable
         if (latitude < -90):
             raise ValueError("Invalid latitude. Value must be greater or equal than -90")
+        if (latitude > 90):
+            raise ValueError("Invalid latitude. Value must be less or equal than 90")
         self._latitude = latitude
         self._longitude = longitude
     
