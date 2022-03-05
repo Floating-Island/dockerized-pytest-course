@@ -1,20 +1,26 @@
+import os
 import pytest
 from scripts import data_processor
 
 
 @pytest.fixture(scope="module")
 def city_list_location():
-    return 'tests/resources/cities/clean_map.csv'
+    return 'tests/resources/cities/'
 
 
 @pytest.fixture(scope="module")
 def process_data(city_list_location):
-    yield data_processor.csv_reader(city_list_location)
+    files = os.listdir(city_list_location)
+    def _specify_type(file_name_or_type):
+        for file in files:
+            if file_name_or_type in file:
+                if (file_name_or_type == '.json'):
+                    data = data_processor.json_reader(city_list_location + file)
+                else:
+                    data = data_processor.csv_reader(city_list_location + file)
 
+    yield _specify_type#when called, we specify the filename or the type
 
-@pytest.fixture(scope="function")
-def city_list_location_malformed():
-    return 'tests/resources/cities/malformed_map.csv'
 
 
 def test_csv_reader_header_fields(process_data):
@@ -22,7 +28,7 @@ def test_csv_reader_header_fields(process_data):
     Happy Path test to make sure the processed data
     contains the right header fields
     """
-    data = process_data
+    data = process_data(file_name_or_type='clean_map.csv')
     header_fields = list(data[0].keys())
     assert header_fields == [
             'Country',
@@ -39,7 +45,7 @@ def test_csv_reader_data_contents(process_data):
     Happy Path Test to examine that each row
     had the appropriate data type per field
     """
-    data = process_data
+    data = process_data(file_name_or_type='clean_map.csv')
 
     # Check row types
     for row in data:
@@ -55,11 +61,11 @@ def test_csv_reader_data_contents(process_data):
     assert data[0]['Country'] == 'Andorra'
     assert data[106]['Country'] == 'Japan'
 
-
-def test_csv_reader_malformed_data_contents(city_list_location_malformed):
+malformed_map.csv
+def test_csv_reader_malformed_data_contents(process_data):
     """
     Sad Path Test
     """
     with pytest.raises(ValueError) as exp:
-        data_processor.csv_reader(city_list_location_malformed)
+        data = process_data(file_name_or_type='malformed_map.csv')
     assert str(exp.value) == "could not convert string to float: 'not_an_altitude'"
