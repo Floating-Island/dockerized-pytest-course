@@ -20,7 +20,7 @@ def process_data(city_list_location):
                     data = data_processor.json_reader(city_list_location + file)
                 else:
                     data = data_processor.csv_reader(city_list_location + file)
-                    
+
         return data
 
     yield _specify_type
