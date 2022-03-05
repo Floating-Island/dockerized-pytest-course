@@ -31,3 +31,9 @@ def test_invalid_point_generation_positive_longitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", 55.34, 336.444)
         assert str(exp.value) == "Invalid longitude. -180 <= longitude <= 180"
+
+
+def test_invalid_point_name_type():
+    with pytest.raises(TypeError) as exp:
+        Point("Graz", 55.34, 36.444)
+        assert str(exp.type) == type.__str__
