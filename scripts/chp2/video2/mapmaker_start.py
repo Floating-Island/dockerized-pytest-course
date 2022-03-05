@@ -1,3 +1,5 @@
+from multiprocessing.sharedctypes import Value
+from operator import truediv
 import string
 
 
@@ -25,4 +27,7 @@ class Map():
         self._cityPoints.add(aPoint)
 
     def has(self, aPoint):
-        return aPoint in self._cityPoints
+        if aPoint in self._cityPoints:
+            return True
+        else:
+            raise ValueError("Invalid point. Point isn't stored in map")
