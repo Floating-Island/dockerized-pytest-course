@@ -38,9 +38,12 @@ class FitnessLog:
 
 
     def delete_activity(self, kind, start_time, end_time):
+        activities_prior_to_deletion = len(self._activities)
         for idx, activity in enumerate(self._activities):
             if activity[0] == kind and activity[1] == start_time and activity[2] == end_time:
                 del self._activities[idx]
+        if activities_prior_to_deletion == len(self._activities):
+            raise Exception ('Trying to delete activity not previously stored.')
 
 
     def get_activities(self):
