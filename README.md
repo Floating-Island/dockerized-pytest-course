@@ -76,7 +76,7 @@ that it has not stored. **DONE**
 - Create a User class. Each User should have a height and favorite color. Based
 on their height, create a function that awards them different types of candy.
 Try working from the test first as you add this functionality and think of ways
-to parametrize your test.
+to parametrize your test. **DONE**
 
 - Find open source Python projects that use pytest and read their tests. Then
 go to the source code to validate your assumptions. Try doing this repeatedly
