@@ -3,12 +3,18 @@ import pytest
 from scripts.fitness_log import FitnessLog
 
 
-@pytest.fixture(scope='function')
-def create_tracker():
-    fitness_tracker = FitnessLog()
-
+@pytest.fixture(scope='module')
+def tracker_activity():
     start_time = datetime(year=2017, month=1, day=1, hour=5, minute=12)
     end_time = datetime(year=2017, month=1, day=1, hour=5, minute=55)
+    yield start_time, end_time
+
+
+@pytest.fixture(scope='function')
+def create_tracker(tracker_activity):
+    fitness_tracker = FitnessLog()
+
+    start_time, end_time = tracker_activity
     # breakpoint()
     fitness_tracker.log_activity("run", start_time, end_time)
 
@@ -50,5 +56,10 @@ def test_add_invalid_activity(create_tracker, create_overlapping_times):
 """
 
 
-def test_function():  # change function name here
-    pass
+def test_delete_activity(create_tracker, tracker_activity):
+    fitness_tracker = create_tracker
+    start_time, end_time = tracker_activity
+    fitness_tracker.delete_activity('run', start_time, end_time)
+    activities = fitness_tracker.get_activities()
+
+    assert len(activities) == 0
