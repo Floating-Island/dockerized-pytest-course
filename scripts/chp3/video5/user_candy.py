@@ -8,3 +8,12 @@ class User():
 
     def favoriteColor(self):
         return self._favoriteColor
+
+
+class Award():
+    @staticmethod
+    def giveCandyTo(aUser):
+        if aUser.height() < 2.00:
+            return 'chocolate'
+        if aUser.height() >= 2.00:
+            return 'marshmallow'
