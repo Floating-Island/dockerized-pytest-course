@@ -70,3 +70,10 @@ def test_invalid_entry(create_tracker, tracker_activity):
     start_time, end_time = tracker_activity
     entry_validation = fitness_tracker.validate_entry(end_time, start_time)
     assert entry_validation is False
+
+
+def test_non_overlapping_activity_empty_log(tracker_activity):
+    fitness_tracker = FitnessLog()
+    start_time, end_time = tracker_activity
+    overlapping_entry = fitness_tracker.overlapping_entry(start_time, end_time)
+    assert overlapping_entry is False
