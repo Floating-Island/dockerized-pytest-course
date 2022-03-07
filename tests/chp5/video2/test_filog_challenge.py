@@ -86,3 +86,14 @@ def test_non_overlapping_activity(create_tracker, tracker_activity):
     end_time = end_time.replace(year=end_time.year + 100)
     overlapping_entry = fitness_tracker.overlapping_entry(start_time, end_time)
     assert overlapping_entry is False
+
+
+def test_delete_no_activity(tracker_activity):
+    fitness_tracker = FitnessLog()
+    activities = fitness_tracker.get_activities()
+    assert len(activities) == 0
+    start_time, end_time = tracker_activity
+    with pytest.raises(Exception) as exp:
+        fitness_tracker.delete_activity('run', start_time, end_time)
+
+    assert str(exp.value) == ('Trying to delete activity not previously stored.')
