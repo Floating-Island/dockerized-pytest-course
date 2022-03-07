@@ -89,7 +89,7 @@ https://github.com/getsentry/sentry/blob/master/tests/sentry/eventstream/kafka/t
 
 
 - Add validation to the delete function in the fitness log class. First,
-refactor your test to account for this.
+refactor your test to account for this. **DONE**
 
 - Additionally, you may consider contributing to open source projects that use
 pytest. If you are new to open source, there are several resources to get
