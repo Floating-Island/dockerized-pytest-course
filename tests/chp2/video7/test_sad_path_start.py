@@ -17,4 +17,4 @@ def test_csv_reader_malformed_data_contents(city_list_location_malformed):
     """
     with pytest.raises(ValueError) as exp:
         data_processor.csv_reader(city_list_location_malformed)
-        assert str(exp.value) == "could not convert string to float: 'not_an_altitude'"
+    assert str(exp.value) == "could not convert string to float: 'not_an_altitude'"
