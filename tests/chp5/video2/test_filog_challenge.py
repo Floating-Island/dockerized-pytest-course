@@ -77,3 +77,12 @@ def test_non_overlapping_activity_empty_log(tracker_activity):
     start_time, end_time = tracker_activity
     overlapping_entry = fitness_tracker.overlapping_entry(start_time, end_time)
     assert overlapping_entry is False
+
+
+def test_non_overlapping_activity(create_tracker, tracker_activity):
+    fitness_tracker = create_tracker
+    start_time, end_time = tracker_activity
+    start_time = start_time.replace(year=start_time.year + 100)
+    end_time = end_time.replace(year=end_time.year + 100)
+    overlapping_entry = fitness_tracker.overlapping_entry(start_time, end_time)
+    assert overlapping_entry is False
