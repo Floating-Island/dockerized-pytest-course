@@ -6,7 +6,8 @@
 Note:
 Fixtures with @pytest.fixture(scope="session", autouse=True) must remain in this file
 """
-# another way of modularizing conftest, specifying the pytest_plugins (I think it's better than the first one)
+# another way of modularizing conftest,
+# specifying the pytest_plugins (I think it's better than the first one)
 pytest_plugins = [
    "tests.utility.cities",
    "tests.utility.data_processing",
