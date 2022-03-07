@@ -13,32 +13,32 @@ def test_make_one_point():
 def test_invalid_point_generation_negative_latitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", -955.34, 36.444)
-        assert str(exp.value) == "Invalid latitude. -90 <= latitude <= 90"
+    assert str(exp.value) == "Invalid latitude. -90 <= latitude <= 90"
 
 
 def test_invalid_point_generation_positive_latitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", 955.34, 36.444)
-        assert str(exp.value) == "Invalid latitude. -90 <= latitude <= 90"
+    assert str(exp.value) == "Invalid latitude. -90 <= latitude <= 90"
 
 
 def test_invalid_point_generation_negative_longitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", 55.34, -336.444)
-        assert str(exp.value) == "Invalid longitude. -180 <= longitude <= 180"
+    assert str(exp.value) == "Invalid longitude. -180 <= longitude <= 180"
 
 
 def test_invalid_point_generation_positive_longitude():
     with pytest.raises(ValueError) as exp:
         Point("Graz", 55.34, 336.444)
-        assert str(exp.value) == "Invalid longitude. -180 <= longitude <= 180"
+    assert str(exp.value) == "Invalid longitude. -180 <= longitude <= 180"
 
 
 def test_invalid_point_name_type():
     with pytest.raises(TypeError) as exp:
         notAName = 42
         Point(notAName, 55.34, 36.444)
-        assert str(exp.value) == "Invalid type. city name type has to be a string"
+    assert str(exp.value) == "Invalid type. city name type has to be a string"
 
 
 def test_make_one_map():
@@ -54,4 +54,4 @@ def test_invalid_point_not_stored_in_map():
     taipeiPoint = Point("Taipei", 25.105497, 121.597366)
     with pytest.raises(ValueError) as exp:
         Map().has(taipeiPoint)
-        assert str(exp.value) == "Invalid point. Point isn't stored in map"
+    assert str(exp.value) == "Invalid point. Point isn't stored in map"
