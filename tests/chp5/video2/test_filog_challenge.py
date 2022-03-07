@@ -63,3 +63,10 @@ def test_delete_activity(create_tracker, tracker_activity):
     activities = fitness_tracker.get_activities()
 
     assert len(activities) == 0
+
+
+def test_invalid_entry(create_tracker, tracker_activity):
+    fitness_tracker = create_tracker
+    start_time, end_time = tracker_activity
+    entry_validation = fitness_tracker.validate_entry(end_time, start_time)
+    assert entry_validation is False
